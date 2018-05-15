@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    height: 400px;
+    width: 700px;
+    box-sizing: border-box;
+    margin: 5px auto;
+    position: relative;
+}
+#pics {
+    height: 400px;
+    width: 700px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+#picsSrc {
+    height: 400px;
+    width: 700px;
+}
+.arrows {
+    display: block;
+    position: absolute;
+    background: url(sprite/arrows.png) no-repeat;
+    opacity: 0.5;
+}
+.left {
+    background-position: 5px -40px;
+}
+.right {
+    background-position: -85px -40px;
+}
+#left {
+    top: 160px;
+    left: 5px;
+    background-color: #ffffff50;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#right {
+    top: 160px;
+    left: 645px;
+    background-color: #ffffff50;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#btnPlay, #btnPause {
+    position: absolute;
+    top: 375px;
+    left: 10px;
+    width: 55px;
+    cursor: pointer;
+}
+#btnPause {
+    display: none;
+}
+#radio {
+    position: absolute;
+    top: 375px;
+    left: 250px;
+    opacity: 0.3;
+}
+#rbForm{
+    cursor: default;
+}
+#rbForm input{
+    cursor: pointer;
+    margin: 0px 3px;
+}
+#hover img {
+    height: 60px;
+    width: 95px;
+    position: absolute;
+    top: 310px;
+    display: none;
+}
+#pic0 {
+    left: 212px;
+}
+#pic1 {
+    left: 234px;
+}
+#pic2 {
+    left: 256px;
+}
+#pic3 {
+    left: 280px;
+}
+#pic4 {
+    left: 303px;
+}
+#pic5 {
+    left: 326px;
+}
+#pic6 {
+    left: 348px;
+}
+#pic7 {
+    left: 372px;
+}
+#pic8 {
+    left: 395px;
+}
+
